@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/everwhen/use-sync-external-store-with-selector.git"
+    "url": "git+https://github.com/diskettejs/use-sync-external-store-with-selector.git"
   },
   "prettier": {
     "semi": false,
