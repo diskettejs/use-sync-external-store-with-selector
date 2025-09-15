@@ -2,26 +2,20 @@
   "name": "use-sync-external-store-with-selector",
   "type": "module",
   "version": "0.0.0",
-  "description": "_description_",
-  "homepage": "https://github.com/everwhen/use-sync-external-store-with-selector#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/everwhen/use-sync-external-store-with-selector.git"
-  },
-  "bugs": "https://github.com/everwhen/use-sync-external-store-with-selector/issues",
-  "keywords": [],
-  "sideEffects": false,
+  "keywords": [
+    "use-sync-external-store",
+    "react"
+  ],
   "exports": "./dist/use-sync-external-store-with-selector.js",
   "files": [
     "dist"
   ],
   "packageManager": "pnpm@10.15.0",
   "scripts": {
-    "dev": "tsc --watch -p tsconfig.build.json",
-    "build": "rm -rf && tsc -p tsconfig.build.json",
-    "prepublishOnly": "pnpm build",
-    "test": "vitest",
+    "dev": "tsc --watch",
+    "build": "rm -rf && tsc",
     "typecheck": "tsc --noEmit",
+    "prepublishOnly": "pnpm build",
     "release": "changeset version && changeset publish && git push --follow-tags"
   },
   "peerDependencies": {
@@ -38,8 +32,11 @@
     "@types/react": "^19.1.13",
     "prettier": "^3.6.2",
     "react": "^19.1.1",
-    "typescript": "^5.9.2",
-    "vitest": "^3.2.4"
+    "typescript": "^5.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/everwhen/use-sync-external-store-with-selector.git"
   },
   "prettier": {
     "semi": false,
